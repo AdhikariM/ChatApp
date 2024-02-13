@@ -23,6 +23,7 @@ struct TitleRow: View {
             VStack (alignment: .leading, content: {
                 Text(name)
                     .font(.title).bold()
+                    .foregroundColor(.black)
                 
                 Text("Online")
                     .font(.caption)
